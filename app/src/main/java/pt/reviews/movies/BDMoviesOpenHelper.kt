@@ -17,7 +17,7 @@ class BDMoviesOpenHelper(context: Context?) : SQLiteOpenHelper(context, NOME, nu
     }
 
     companion object {
-        const val NOME = "livros.db"
+        const val NOME = "movies.db"
         private const val VERSAO = 1
     }
 }
